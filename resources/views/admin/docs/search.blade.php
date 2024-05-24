@@ -49,7 +49,6 @@
                                                                 </p>
                                                                 <small class="">{{ $property->created_at }}</small>
                                                             </a>
-
                                                         </div>
                                                     </div>
                                                 @endforeach
@@ -84,7 +83,7 @@
                                                                 <div class="d-flex w-100 justify-content-between">
                                                                     <h5 class="mb-1">{{ $auto->stamp }}</h5>
                                                                     <small class="">
-                                                                        @if ($property->getDeposit())
+                                                                        @if ($auto->getDeposit())
                                                                             <button class="btn btn-danger">В залоге</button>
                                                                         @else
                                                                             <button class="btn btn-primary">Не в
@@ -96,7 +95,7 @@
                                                                     Регион:
                                                                     {{ $auto->region->name }}
                                                                 </p>
-                                                                <small class="">{{ $property->created_at }}</small>
+                                                                <small class="">{{ $auto->created_at }}</small>
                                                             </a>
                                                         </div>
                                                     </div>

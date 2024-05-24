@@ -53,7 +53,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="#">
+                            <a href="{{ route("client.docs.deposit.index") }}">
                                 <article class="service-block-1 text-center" style="border-radius: 7px">
                                     <h3><i class="bi bi-house-check-fill"></i> Имущество</h3>
                                 </article>
